@@ -11,11 +11,11 @@ with open(join("spinup", "version.py")) as version_file:
 
 setup(
     name='spinup',
-    py_modules=['spinup'],
+    packages=['spinup'],
     version=__version__,
     install_requires=[
         'cloudpickle',
-        'gym[atari,box2d,classic_control]==0.21.0', # last version before step() API changes
+        'gym[atari,box2d,classic_control]==0.21.0',
         'ipython',
         'joblib',
         'matplotlib',
