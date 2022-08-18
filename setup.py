@@ -15,7 +15,7 @@ setup(
     version=__version__,
     install_requires=[
         'cloudpickle',
-        'gym[atari,box2d,classic_control]==0.24.0', # last version before step() API changes
+        'gym[atari,box2d,classic_control]==0.24.1', # last version before step() API changes
         'ipython',
         'joblib',
         'matplotlib',
