@@ -11,7 +11,7 @@ with open(join("spinup", "version.py")) as version_file:
 
 setup(
     name='spinup',
-    packages=['spinup'],
+    py_modules=['spinup'],
     version=__version__,
     install_requires=[
         'cloudpickle',
